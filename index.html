@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hed">
+        <h1>Survey Form</h1>
+    </div>
+    <form>
+              <div class="name">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="name">
+                <label >Email</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="name">
+                <label>Age</label>
+                <input type="text" placeholder="Enter your age">
+            </div>
+            <div class="name1" id="select">
+                <label>Which option best describe you?</label>
+                <select name="position" >
+                    <option value="select1">Student</option>
+                    <option value="select2">Job</option>
+                    <option value="select3">Business</option>
+                    <option value="select4">none</option>
+                </select>
+            </div>
+            <div class="name1" id="rdo">
+                <label >Would you recommended GeeksforGeeks to a friend?</label>
+                <input type="radio" name="1">Yes<br>
+                <input type="radio" name="1">No<br>
+                <input type="radio" name="1">May be
+            </div>
+            <div class="name1">
+                <label>Which language you know?</label>
+                <input type="checkbox" name="1">C<br>
+                <input type="checkbox" name="2">C++<br>
+                <input type="checkbox" name="3">python<br>
+                <input type="checkbox" name="4">C#<br>
+                <input type="checkbox" name="5">R
+    
+            </div>
+            <div class="name1">
+                <h3>any suggestion</h3>
+                <textarea cols="50" rows="5"></textarea>
+            </div>
+            <Button>Submit</Button>
+       
+    </form>
+</body>
+</html>
